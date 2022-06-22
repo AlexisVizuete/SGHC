@@ -64,13 +64,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarTelefono[0]" time="0.015"/>
+  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarTelefono[0]" time="0.014"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="consultarPaciente[0]" time="0"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarDireccion[0]" time="0.001"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="existePaciente[0]" time="0"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarTelefono[1]" time="0"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="consultarPaciente[1]" time="0"/>
-  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarDireccion[1]" time="0"/>
+  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarDireccion[1]" time="0.001"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="existePaciente[1]" time="0"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarTelefono[2]" time="0"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="consultarPaciente[2]" time="0"/>
