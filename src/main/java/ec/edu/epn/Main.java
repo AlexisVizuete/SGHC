@@ -29,6 +29,13 @@ public class Main {
 
         System.out.println(listaMain.endodoncia.listaEndodoncias.toString());
 
+        //Periodoncia
+        listaMain.periodoncia.registrarTratamiento("1006425311","chequeo de encias superiores", "buena higiene");
+        listaMain.periodoncia.listaPeriodoncia.add(new Periodoncia("1006425311", "chequeo de encias superiores", "buena higiene", "18/05/2022"));
+        listaMain.anadirTratamiento("1006425311", "Periodoncia");
+
+        System.out.println(listaMain.diagnostico.listaDiagnostico.toString());
+
     }
 }
 
