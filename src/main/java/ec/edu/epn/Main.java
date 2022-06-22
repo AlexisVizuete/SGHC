@@ -22,6 +22,12 @@ public class Main {
 
         System.out.println(listaMain.diagnostico.listaDiagnostico.toString());
 
+        //Endodoncia
+        listaMain.endodoncia.registrarTratamiento("1713074050","extracción", "tratar inflamaciones");
+        listaMain.endodoncia.listaEndodoncias.add(new Endodoncia("1713074050", "extracción", "tratar inflamaciones", "20/05/2022"));
+        listaMain.anadirTratamiento("1713074050", "Endodoncia");
+
+        System.out.println(listaMain.endodoncia.listaEndodoncias.toString());
 
     }
 }
