@@ -36,6 +36,14 @@ public class Main {
 
         System.out.println(listaMain.diagnostico.listaDiagnostico.toString());
 
+        //Ortodoncia
+        listaMain.ortodoncia.registrarTratamiento("1724831597","estudio", "utilizar kit de limpieza dental");
+        listaMain.ortodoncia.listaOrtodoncias.add(new Ortodoncia("1724831597", "estudio", "utilizar kit de limpieza dental", "15/08/2021"));
+        listaMain.anadirTratamiento("1724831597", "Ortodoncia");
+
+        System.out.println(listaMain.ortodoncia.listaOrtodoncias.toString());
+
+
     }
 }
 
