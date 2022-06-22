@@ -12,6 +12,17 @@ public class Main {
 
         System.out.println(lp.toString());
 
+        //Tratamiento
+        ListaTratamientos listaMain = new ListaTratamientos();
+
+        //Diagnostico
+        listaMain.diagnostico.registrarTratamiento("1724831597","revisión bucal", "lavarse los dientes");
+        listaMain.diagnostico.listaDiagnostico.add(new Diagnostico("1724831597", "revisión bucal", "lavarse los dientes", "10/10/2022"));
+        listaMain.anadirTratamiento("1724831597", "Diagnostico");
+
+        System.out.println(listaMain.diagnostico.listaDiagnostico.toString());
+
+
     }
 }
 
