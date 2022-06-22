@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="ec.edu.epn.listaPacienteTest" time="0.018" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="ec.edu.epn.listaPacienteTest" time="0.017" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.1.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,15 +65,15 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarTelefono[0]" time="0.015"/>
-  <testcase classname="ec.edu.epn.listaPacienteTest" name="consultarPaciente[0]" time="0"/>
-  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarDireccion[0]" time="0.001"/>
+  <testcase classname="ec.edu.epn.listaPacienteTest" name="consultarPaciente[0]" time="0.001"/>
+  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarDireccion[0]" time="0"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="existePaciente[0]" time="0"/>
-  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarTelefono[1]" time="0"/>
+  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarTelefono[1]" time="0.001"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="consultarPaciente[1]" time="0"/>
-  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarDireccion[1]" time="0.001"/>
+  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarDireccion[1]" time="0"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="existePaciente[1]" time="0"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarTelefono[2]" time="0"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="consultarPaciente[2]" time="0"/>
-  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarDireccion[2]" time="0.001"/>
+  <testcase classname="ec.edu.epn.listaPacienteTest" name="actualizarDireccion[2]" time="0"/>
   <testcase classname="ec.edu.epn.listaPacienteTest" name="existePaciente[2]" time="0"/>
 </testsuite>
