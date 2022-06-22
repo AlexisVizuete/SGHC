@@ -37,9 +37,9 @@ public class Main {
         listaMain.periodoncia.listaPeriodoncia.add(new Periodoncia("1006425311", "chequeo de encias superiores", "buena higiene", "18/05/2022"));
         listaMain.anadirTratamiento("1006425311", "Periodoncia");
 
-        System.out.println(listaMain.diagnostico.listaDiagnostico.toString());
+        System.out.println(listaMain.periodoncia.listaPeriodoncia.toString());
 
-        /*
+
         //Ortodoncia
         listaMain.ortodoncia.registrarTratamiento("1724831597","estudio", "utilizar kit de limpieza dental");
         listaMain.ortodoncia.listaOrtodoncias.add(new Ortodoncia("1724831597", "estudio", "utilizar kit de limpieza dental", "15/08/2021"));
@@ -48,7 +48,7 @@ public class Main {
         System.out.println(listaMain.ortodoncia.listaOrtodoncias.toString());
 
         //Lista tratamientos
-        System.out.println(listaMain.toString());*/
+        System.out.println(listaMain.toString());
 
 
     }
