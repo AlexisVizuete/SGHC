@@ -12,6 +12,7 @@ public class Main {
 
         System.out.println(lp.toString());
 
+        /*
         //Tratamiento
         ListaTratamientos listaMain = new ListaTratamientos();
 
@@ -44,7 +45,7 @@ public class Main {
         System.out.println(listaMain.ortodoncia.listaOrtodoncias.toString());
 
         //Lista tratamientos
-        System.out.println(listaMain.toString());
+        System.out.println(listaMain.toString());*/
 
 
     }

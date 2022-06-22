@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 
 @RunWith(value = Parameterized.class)
 
-public class ListaPacienteTest {
+public class listaPacienteTest {
 
     private String cedula;
     private boolean expected;
