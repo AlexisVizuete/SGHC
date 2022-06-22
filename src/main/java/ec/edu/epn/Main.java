@@ -23,7 +23,7 @@ public class Main {
 
         System.out.println(listaMain.diagnostico.listaDiagnostico.toString());
 
-        /*
+
         //Endodoncia
         listaMain.endodoncia.registrarTratamiento("1713074050","extracción", "tratar inflamaciones");
         listaMain.endodoncia.listaEndodoncias.add(new Endodoncia("1713074050", "extracción", "tratar inflamaciones", "20/05/2022"));
@@ -31,6 +31,7 @@ public class Main {
 
         System.out.println(listaMain.endodoncia.listaEndodoncias.toString());
 
+        /*
         //Periodoncia
         listaMain.periodoncia.registrarTratamiento("1006425311","chequeo de encias superiores", "buena higiene");
         listaMain.periodoncia.listaPeriodoncia.add(new Periodoncia("1006425311", "chequeo de encias superiores", "buena higiene", "18/05/2022"));
